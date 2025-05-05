@@ -22,7 +22,41 @@ Rather than following fixed rules like traditional programs, ML models uncover h
 Before getting started do your research on machine learning and be able to **at least** answer the following questions:
 
 - What is the difference between supervised and unsupervised learning?
+# Supervised vs. Unsupervised Learning
+
+| Feature                     | **Supervised Learning**                             | **Unsupervised Learning**                          |
+|----------------------------|-----------------------------------------------------|----------------------------------------------------|
+| **Labeled Data**           | Requires labeled data (input-output pairs)          | No labeled data required                           |
+| **Objective**              | Predict output from input                           | Discover hidden patterns or structure              |
+| **Typical Tasks**          | Classification, Regression                          | Clustering, Dimensionality Reduction               |
+| **Example Algorithms**     | Linear Regression, Decision Trees, SVM, Neural Nets | K-Means, Hierarchical Clustering, PCA, t-SNE       |
+| **Output**                 | Predict specific labels or continuous values        | Groupings, clusters, or compressed representation  |
+| **Example Use Case**       | Email spam detection, disease diagnosis             | Customer segmentation, anomaly detection           |
+| **Data Efficiency**        | Needs large labeled datasets                        | Can work with raw, unlabeled data                  |
+
 - What are types of supervised learning?
+## 🧠 Types of Supervised Learning
+
+### 1. Classification
+
+| Aspect            | Details                                                      |
+|-------------------|--------------------------------------------------------------|
+| **Output Type**   | Discrete / Categorical                                       |
+| **Goal**          | Assign input data to one of the predefined classes           |
+| **Examples**      | Spam detection, disease diagnosis, image recognition         |
+| **Algorithms**    | Logistic Regression, SVM, Decision Tree, Random Forest, k-NN, Neural Networks |
+
+---
+
+### 2. Regression
+
+| Aspect            | Details                                                      |
+|-------------------|--------------------------------------------------------------|
+| **Output Type**   | Continuous / Numeric                                          |
+| **Goal**          | Predict a real-valued output from input features             |
+| **Examples**      | House price prediction, sales forecasting, temperature prediction |
+| **Algorithms**    | Linear Regression, Ridge/Lasso, SVR, Random Forest Regressor, Neural Networks |
+
 - What’s the difference between **classification** and **regression**? What output does each produce?
 - How do you determine whether a problem is classification or regression?
 - Are there ML problems that fall outside classification and regression?
