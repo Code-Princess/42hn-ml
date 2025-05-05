@@ -35,7 +35,8 @@ Before getting started do your research on machine learning and be able to **at 
 | **Data Efficiency**        | Needs large labeled datasets                        | Can work with raw, unlabeled data                  |
 
 - What are types of supervised learning?
-Classification vs. Regression
+
+Classification and Regression
 
 - What’s the difference between **classification** and **regression**? What output does each produce?
 ## 📊 Classification vs. Regression
