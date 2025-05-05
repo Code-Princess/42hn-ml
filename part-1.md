@@ -22,6 +22,18 @@ Rather than following fixed rules like traditional programs, ML models uncover h
 Before getting started do your research on machine learning and be able to **at least** answer the following questions:
 
 - What is the difference between supervised and unsupervised learning?
+# Supervised vs. Unsupervised Learning
+
+| Feature                     | **Supervised Learning**                             | **Unsupervised Learning**                          |
+|----------------------------|-----------------------------------------------------|----------------------------------------------------|
+| **Labeled Data**           | Requires labeled data (input-output pairs)          | No labeled data required                           |
+| **Objective**              | Predict output from input                           | Discover hidden patterns or structure              |
+| **Typical Tasks**          | Classification, Regression                          | Clustering, Dimensionality Reduction               |
+| **Example Algorithms**     | Linear Regression, Decision Trees, SVM, Neural Nets | K-Means, Hierarchical Clustering, PCA, t-SNE       |
+| **Output**                 | Predict specific labels or continuous values        | Groupings, clusters, or compressed representation  |
+| **Example Use Case**       | Email spam detection, disease diagnosis             | Customer segmentation, anomaly detection           |
+| **Data Efficiency**        | Needs large labeled datasets                        | Can work with raw, unlabeled data                  |
+
 - What are types of supervised learning?
 - What’s the difference between **classification** and **regression**? What output does each produce?
 - How do you determine whether a problem is classification or regression?
