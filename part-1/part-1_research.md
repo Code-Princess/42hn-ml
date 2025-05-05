@@ -62,7 +62,38 @@ Before getting started do your research on machine learning and be able to **at 
 | Are you answering **“How much?” or “How many?”** | No             | Yes        |
 
 - Are there ML problems that fall outside classification and regression?
+## 🧠 ML Problem Types Beyond Classification & Regression
+
+| Problem Type              | Description                                                                 | Example Use Cases                          |
+|---------------------------|-----------------------------------------------------------------------------|--------------------------------------------|
+| **Clustering**            | Grouping similar data points without labels                                 | Customer segmentation, topic modeling      |
+| **Dimensionality Reduction** | Reducing the number of features while preserving structure                  | Data visualization (e.g., PCA), noise reduction |
+| **Anomaly Detection**     | Identifying rare or unusual data points                                     | Fraud detection, network intrusion         |
+| **Recommendation Systems**| Predicting user preferences based on past behavior                          | Movie or product recommendations           |
+| **Reinforcement Learning**| Learning via reward signals through trial and error                         | Robotics, game playing (e.g., AlphaGo)     |
+| **Self-supervised Learning** | Using the data itself to generate labels                                  | Pretraining models like BERT, SimCLR       |
+| **Multi-task Learning**   | Solving multiple learning tasks simultaneously                              | Joint classification and regression        |
+
 - What is skewed data and how to mitigate it's effect?
+📉 What Is Skewed Data?
+Skewed data occurs when the distribution of your target variable (typically in classification) is imbalanced—i.e., some classes appear far more frequently than others.
+
+Example: In a medical dataset, 95% of patients might be healthy, and only 5% have a rare disease.
+
+Result: A model could "cheat" by always predicting the majority class and still achieve high accuracy.
+
+## ⚖️ Techniques to Handle Skewed Data
+
+| Technique                       | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| **Resampling: Oversampling**    | Duplicate examples from the minority class (e.g. SMOTE)                     |
+| **Resampling: Undersampling**   | Remove examples from the majority class                                    |
+| **Class Weights**               | Assign higher weights to minority class during training                    |
+| **Anomaly Detection Approach**  | Treat minority class as an outlier or rare event                           |
+| **Change Evaluation Metrics**   | Use metrics like Precision, Recall, F1-score, AUC instead of Accuracy       |
+| **Generate Synthetic Data**     | Use techniques like GANs or SMOTE to synthesize new minority examples       |
+| **Stratified Sampling**         | Ensure each class is proportionally represented in training/test splits     |
+
 
 ---
 
