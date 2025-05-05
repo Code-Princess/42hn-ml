@@ -36,7 +36,7 @@ Before getting started do your research on machine learning and be able to **at 
 
 - What are types of supervised learning?
 
-Classification and Regression
+   Classification and Regression
 
 - What’s the difference between **classification** and **regression**? What output does each produce?
 ## 📊 Classification vs. Regression
