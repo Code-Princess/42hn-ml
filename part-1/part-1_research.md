@@ -75,13 +75,14 @@ Before getting started do your research on machine learning and be able to **at 
 | **Multi-task Learning**   | Solving multiple learning tasks simultaneously                              | Joint classification and regression        |
 
 - What is skewed data and how to mitigate it's effect?
-📉 What Is Skewed Data?
-Skewed data occurs when the distribution of your target variable (typically in classification) is imbalanced—i.e., some classes appear far more frequently than others.
-
-Example: In a medical dataset, 95% of patients might be healthy, and only 5% have a rare disease.
-
-Result: A model could "cheat" by always predicting the majority class and still achieve high accuracy.
-
+   
+   📉 What Is Skewed Data?
+   Skewed data occurs when the distribution of your target variable (typically in classification) is imbalanced—i.e., some classes appear far more frequently than others.
+   
+   Example: In a medical dataset, 95% of patients might be healthy, and only 5% have a rare disease.
+   
+   Result: A model could "cheat" by always predicting the majority class and still achieve high accuracy.
+   
 ## ⚖️ Techniques to Handle Skewed Data
 
 | Technique                       | Description                                                                 |
