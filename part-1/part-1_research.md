@@ -50,6 +50,17 @@ Before getting started do your research on machine learning and be able to **at 
 | **Evaluation Metrics** | Accuracy, Precision, Recall, F1-Score                 | Mean Squared Error (MSE), Mean Absolute Error (MAE), R²   |
 
 - How do you determine whether a problem is classification or regression?
+## 🧭 How to Tell: Classification or Regression?
+
+| Question                                          | Classification | Regression |
+|--------------------------------------------------|----------------|------------|
+| Is the output a **category or class label**?     | Yes            | No         |
+| Is the output a **real/continuous number**?      | No             | Yes        |
+| Is the number of possible outputs **finite**?    | Yes            | No         |
+| Can the outputs be **ranked on a numeric scale**?| No             | Yes        |
+| Are you answering **“What type?”**               | Yes            | No         |
+| Are you answering **“How much?” or “How many?”** | No             | Yes        |
+
 - Are there ML problems that fall outside classification and regression?
 - What is skewed data and how to mitigate it's effect?
 
