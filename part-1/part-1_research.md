@@ -35,29 +35,19 @@ Before getting started do your research on machine learning and be able to **at 
 | **Data Efficiency**        | Needs large labeled datasets                        | Can work with raw, unlabeled data                  |
 
 - What are types of supervised learning?
-## 🧠 Types of Supervised Learning
-
-### 1. Classification
-
-| Aspect            | Details                                                      |
-|-------------------|--------------------------------------------------------------|
-| **Output Type**   | Discrete / Categorical                                       |
-| **Goal**          | Assign input data to one of the predefined classes           |
-| **Examples**      | Spam detection, disease diagnosis, image recognition         |
-| **Algorithms**    | Logistic Regression, SVM, Decision Tree, Random Forest, k-NN, Neural Networks |
-
----
-
-### 2. Regression
-
-| Aspect            | Details                                                      |
-|-------------------|--------------------------------------------------------------|
-| **Output Type**   | Continuous / Numeric                                          |
-| **Goal**          | Predict a real-valued output from input features             |
-| **Examples**      | House price prediction, sales forecasting, temperature prediction |
-| **Algorithms**    | Linear Regression, Ridge/Lasso, SVR, Random Forest Regressor, Neural Networks |
+Classification vs. Regression
 
 - What’s the difference between **classification** and **regression**? What output does each produce?
+## 📊 Classification vs. Regression
+
+| Feature              | **Classification**                                    | **Regression**                                           |
+|----------------------|--------------------------------------------------------|-----------------------------------------------------------|
+| **Output Type**      | Discrete categories or class labels                    | Continuous numeric values                                 |
+| **Goal**             | Assign input to a specific class                       | Predict a quantity based on input                         |
+| **Examples**         | Email: Spam or Not Spam<br>Image: Cat, Dog, etc.       | Predict house prices<br>Forecast temperature              |
+| **Typical Algorithms** | Logistic Regression, SVM, Decision Trees, k-NN       | Linear Regression, SVR, Random Forest Regressor           |
+| **Evaluation Metrics** | Accuracy, Precision, Recall, F1-Score                 | Mean Squared Error (MSE), Mean Absolute Error (MAE), R²   |
+
 - How do you determine whether a problem is classification or regression?
 - Are there ML problems that fall outside classification and regression?
 - What is skewed data and how to mitigate it's effect?
