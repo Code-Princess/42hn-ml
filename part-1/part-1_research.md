@@ -106,7 +106,11 @@ Use appropriate plots and explain your choices—why you chose that graph, and w
 ### Prepare:
 
 1. Gain insights from the data through exploration.
+
+    bikeSharing_plots.ipynb
 2. Clean and adjust the data as necessary.
+
+    bikeSharing_dataCheck.ipynb, bikeSharing_anomalies.ipynb, bikeSharing_dataClean.ipynb
 3. Build a **preprocessing pipeline** using `scikit-learn`.
    - Wrap the pipeline creation into a **reusable function** that accepts any estimator.
 
