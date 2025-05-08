@@ -143,3 +143,6 @@ You are required to use the following tools:
 - `seaborn` – Visualization
 - `scikit-learn` – ML toolkit
 - `mlflow` – Experiment tracking and logging
+  - in terminal type:
+  
+    (.venv) level3@admins-Mac-mini 42hn-ml % mlflow server --host localhost --port 5000 
