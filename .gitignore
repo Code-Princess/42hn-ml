@@ -2,3 +2,5 @@
 .venv/
 .ipynb_checkpoints/
 .idea/
+libxgboost_backup.dylib
+part-1/mlruns/
