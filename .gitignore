@@ -4,3 +4,5 @@
 .idea/
 libxgboost_backup.dylib
 part-1/mlruns/
+mlruns/
+mlartifacts
