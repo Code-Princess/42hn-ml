@@ -122,8 +122,13 @@ Train models to predict hourly bike rentals using:
 - `RandomForestRegressor`
 - `XGBRegressor`
 - `GridSearchCV` for hyperparameter tuning
+  - bikeSharing_models.ipynb
 
 Evaluate your models using **multiple performance metrics**.
+
+    mlflow.log_metric("rmse", rmse)
+    mlflow.log_metric("mae", mae)
+    mlflow.log_metric("r2", r2)
 
 ### Dataset
 
